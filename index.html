@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-video-container">
+        <video src="bg.mp4" class="bg-video" autoplay muted loop></video>
+    </div>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form id="expenseForm">
+            <input type="text" id="expenseDescription" placeholder="Description" required>
+            <input type="number" id="expenseAmount" placeholder="Amount" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
